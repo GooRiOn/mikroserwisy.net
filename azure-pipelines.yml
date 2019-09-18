@@ -1,4 +1,4 @@
-
+steps:
 - task: AzureFileCopy@3
   inputs:
     SourcePath: '$(Build.Repository.LocalPath)'
