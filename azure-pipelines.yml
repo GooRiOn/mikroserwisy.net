@@ -7,7 +7,4 @@ steps:
     storage: 'mikroserwisynet'
     ContainerName: 'mikroserwisynet'
 
-trigger: master
 
-pool:
-  vmImage: 'ubuntu-latest'
