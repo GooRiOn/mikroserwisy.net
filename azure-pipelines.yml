@@ -1,5 +1,11 @@
+trigger:
+- master
+
+pool:
+  vmImage: vs2017-win2016
+
 steps:
-- task: AzureFileCopy@3
+- task: AzureFileCopy@2
   inputs:
     SourcePath: '$(Build.Repository.LocalPath)'
     azureSubscription: 'Visual Studio Enterprise(0e5a8e60-793b-4f9d-a795-c90ef53bcff5)'
